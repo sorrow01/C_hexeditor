@@ -34,7 +34,7 @@ int load(char *str)
 
     while (1)
     {
-        c=fgetc(file);  //bug here
+        c=fgetc(file);
 
         new=(list*)malloc(sizeof(list));
         new->byte=c;
